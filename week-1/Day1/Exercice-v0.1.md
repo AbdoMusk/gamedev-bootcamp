@@ -131,3 +131,64 @@ class EvenOddChecker
     }
 }
 ```
+
+**- Exercise 8: <span style="color:#FFD700;">Temperature Converter</span> Task :**
+```
+using System;
+
+class TemperatureConverter
+{
+    static void Main()
+    {
+        Console.Write("Enter temperature in Celsius: ");
+        double celsius = Convert.ToDouble(Console.ReadLine());
+        
+        double fahrenheit = celsius * 9 / 5 + 32;
+        
+        Console.WriteLine(celsius+ "°C is equal to "+ fahrenheit+ "°F");
+    }
+}
+```
+
+**- Exercise 9: <span style="color:#FFD700;">Number Swapper</span> Task :**
+```
+using System;
+
+class NumberSwapper
+{
+    static void Main()
+    {
+        int a = 10;
+        int b = 20;
+        
+        Console.WriteLine("Before swap: a=" + a + ", b =" + b);
+        
+        int temp = a;
+        a = b;
+        b = temp;
+        
+        Console.WriteLine("After swap : a =" + a + ", b = " + b);
+    }
+}
+```
+
+**- Exercise 10: <span style="color:#FFD700;">Simple Multiplication Table</span> Task :**
+```
+using System;
+
+class MultiplicationTable
+{
+    static void Main()
+    {
+        Console.Write("Enter a number: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine("Multiplication table for " + number + ":");
+        
+        for (int i = 1; i <= 10; i++)
+        {
+            Console.WriteLine(number +" x " + i +" = " + (number * i));
+        }
+    }
+}
+```
