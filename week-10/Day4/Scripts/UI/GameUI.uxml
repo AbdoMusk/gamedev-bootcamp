@@ -1,10 +1,10 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="hud-panel" enabled="true" style="position: absolute; width: 100%; padding: 20px; flex-direction: row; justify-content: space-between; display: flex;">
+    <ui:VisualElement name="hud-panel" enabled="true" style="position: absolute; width: 100%; padding: 20px; flex-direction: row; justify-content: space-between; display: flex; top: 3%;">
         <ui:VisualElement style="flex-direction: column;">
             <ui:Label name="score-label" text="Score: 0" class="hud-label" style="font-size: 102px; color: rgb(150, 236, 233); -unity-font-style: bold; -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 4px; text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.25);"/>
         </ui:VisualElement>
-        <ui:VisualElement style="flex-direction: column; align-items: flex-end;">
-            <ui:Label name="difficulty-label" text="Difficulty: 0%" class="hud-label" style="font-size: 50px; color: rgb(255, 160, 160);"/>
+        <ui:VisualElement style="flex-direction: column; align-items: flex-end; justify-content: center; font-size: 14px;">
+            <ui:Label name="difficulty-label" text="Difficulty: 0%" class="hud-label" style="font-size: 40px; color: rgb(255, 160, 160);"/>
         </ui:VisualElement>
         <ui:Button name="camera-toggle-button" text="Camera" class="control-button" style="font-size: 31px; background-color: rgba(188, 188, 188, 0.47); color: rgba(255, 247, 177, 0.9); -unity-text-align: middle-center; width: auto; height: auto;"/>
     </ui:VisualElement>

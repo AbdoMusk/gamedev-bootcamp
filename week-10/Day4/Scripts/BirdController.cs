@@ -52,7 +52,7 @@ public class BirdController : MonoBehaviour
 
         if (!gameStarted)
         {
-            if (Keyboard.current?.spaceKey.wasPressedThisFrame == true || Mouse.current?.leftButton.wasPressedThisFrame == true)
+            if (IsTapPressed())
             {
                 StartFromInput();
             }
@@ -86,7 +86,7 @@ public class BirdController : MonoBehaviour
 
     private void HandleInput()
     {
-        if (Keyboard.current?.spaceKey.wasPressedThisFrame == true || Mouse.current?.leftButton.wasPressedThisFrame == true)
+        if (IsTapPressed())
         {
             verticalVelocity = flapForce;
             AudioEvents.RaiseBirdFlyStart();
@@ -100,6 +100,13 @@ public class BirdController : MonoBehaviour
         Vector3 pos = transform.position;
         pos.z = Mathf.Lerp(pos.z, GetLaneZ(currentLane), laneSwitchSpeed * Time.deltaTime);
         transform.position = pos;
+    }
+
+    private bool IsTapPressed()
+    {
+        return Keyboard.current?.spaceKey.wasPressedThisFrame == true
+            || Mouse.current?.leftButton.wasPressedThisFrame == true
+            || Touchscreen.current?.primaryTouch.press.wasPressedThisFrame == true;
     }
 
     public void Flap()
