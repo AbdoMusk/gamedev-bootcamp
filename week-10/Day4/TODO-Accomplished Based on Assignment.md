@@ -37,9 +37,9 @@ Legend: [x] achieved, [ ] needed
 - [x] No hard-coded magic numbers (multiple constants still embedded) in [Scripts/BirdController.cs](Scripts/BirdController.cs#L34-L61), [Scripts/Obstacle.cs](Scripts/Obstacle.cs#L15-L99)
 
 ## 🟢 LOW PRIORITY (Nice to Have / Skip If Rushed)
-- [ ] Input buffering / forgiveness (not implemented)
 - [x] Object pooling (destroy is currently used) in [Scripts/Obstacle.cs](Scripts/Obstacle.cs#L16-L17)
 - [x] High score saving in [Scripts/GameManager.cs](Scripts/GameManager.cs#L18-L73)
 - [x] Event-based audio system (implemented)
 - [x] Mobile-specific input polish (implemented)
 - [x] Extra visual feedback (camera shake) (implemented)
+- [ ] Input buffering / forgiveness (not implemented)
