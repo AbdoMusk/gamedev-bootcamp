@@ -40,6 +40,6 @@ Legend: [x] achieved, [ ] needed
 - [x] Object pooling (destroy is currently used) in [Scripts/Obstacle.cs](Scripts/Obstacle.cs#L16-L17)
 - [x] High score saving in [Scripts/GameManager.cs](Scripts/GameManager.cs#L18-L73)
 - [x] Event-based audio system (implemented)
+- [ ] Input buffering / forgiveness (not implemented)
 - [x] Mobile-specific input polish (implemented)
 - [x] Extra visual feedback (camera shake) (implemented)
-- [ ] Input buffering / forgiveness (not implemented)
