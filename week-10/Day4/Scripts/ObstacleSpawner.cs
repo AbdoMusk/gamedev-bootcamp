@@ -73,6 +73,7 @@ public class ObstacleSpawner : MonoBehaviour
         gameTime = 0f;
         spawnTimer = 0f;
         DifficultyPercent = 0f;
+        SpawnObstacles(baseObstacleSpeed, baseGapSize);
     }
 
     public void StopSpawning()
