@@ -1,0 +1,29 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="hud-panel" enabled="true" style="position: absolute; width: 100%; padding: 20px; flex-direction: row; justify-content: space-between; display: flex; top: 3%;">
+        <ui:VisualElement style="flex-direction: column;">
+            <ui:Label name="score-label" text="Score: 0" class="hud-label" style="font-size: 102px; color: rgb(150, 236, 233); -unity-font-style: bold; -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 4px; text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.25);"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: column; align-items: flex-end; justify-content: center; font-size: 14px;">
+            <ui:Label name="difficulty-label" text="Difficulty: 0%" class="hud-label" style="font-size: 40px; color: rgb(255, 160, 160);"/>
+        </ui:VisualElement>
+        <ui:Button name="camera-toggle-button" text="Camera" class="control-button" style="font-size: 31px; background-color: rgba(188, 188, 188, 0.47); color: rgba(255, 247, 177, 0.9); -unity-text-align: middle-center; width: auto; height: auto;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="input-layer" enabled="true" class="input-layer" style="display: flex; bottom: auto; top: 75%; left: auto; right: auto;">
+        <ui:VisualElement class="controls-bar" style="flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; align-self: flex-start;">
+            <ui:Button name="left-lane-button" text="&#9664;" class="control-button" style="font-size: 300px; background-color: rgba(188, 188, 188, 0.47); color: rgba(255, 247, 177, 0.63); width: auto; height: auto;"/>
+            <ui:Button name="right-lane-button" text="&#9654;" class="control-button" style="font-size: 300px; background-color: rgba(188, 188, 188, 0.47); color: rgba(255, 247, 177, 0.63); -unity-text-align: middle-center; white-space: nowrap; text-overflow: clip; height: auto; width: auto;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="menu-panel" enabled="true" class="panel overlay" style="justify-content: flex-start; align-items: stretch; align-self: auto; align-content: flex-start; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; background-color: rgba(0, 0, 0, 0.41); height: 100%; width: 100%; background-size: 100% 100%; display: none;">
+        <ui:Label text="Flappy Tibibt" class="title" style="align-items: stretch; justify-content: flex-start; -unity-text-align: upper-center; font-size: 145px; -unity-font-style: bold; color: rgb(229, 183, 133); -unity-text-outline-color: rgb(161, 118, 101); -unity-text-outline-width: 6px; letter-spacing: -4px; text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4); margin-top: 191px;"/>
+        <ui:Label name="high-score-label" text="High Score: 0" class="subtitle" style="-unity-text-align: upper-center; font-size: 70px; padding-top: 78px;"/>
+        <ui:Button name="start-button" text="TAP TO START" class="button" style="margin-top: 417px; background-color: rgb(166, 220, 233); font-size: 83px; color: rgb(255, 255, 255); -unity-text-outline-width: 3px; -unity-text-outline-color: rgba(0, 0, 0, 0.38); text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.44);"/>
+        <ui:Label text="Controls: Tap screen to flap Left/Right buttons to change lanes" class="controls-text" style="-unity-text-align: upper-center; margin-top: 216px; -unity-text-auto-size: none; text-overflow: clip; white-space: normal; font-size: 57px;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="game-over-panel" enabled="true" class="panel overlay" style="display: none; background-color: rgba(0, 0, 0, 0.24); width: 100%; height: 100%;">
+        <ui:Label text="GAME OVER" class="title" style="color: rgb(244, 67, 54); -unity-text-align: middle-center; font-size: 120px; -unity-font-style: bold; -unity-text-outline-width: 6px; -unity-text-outline-color: rgb(255, 255, 255); text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.37); margin-top: 14px; width: 100%; height: 20%;"/>
+        <ui:Label name="final-score-label" text="Score: 0" class="score-large" style="-unity-text-align: middle-center; font-size: 80px; color: rgb(146, 253, 255); margin-top: 84px; text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.31); -unity-font-style: bold;"/>
+        <ui:Label name="new-high-score-label" text="NEW HIGH SCORE!" class="new-high-score" style="display: none; font-size: 40px; -unity-text-align: upper-center; -unity-font-style: italic; color: rgb(236, 187, 34); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(238, 210, 0); text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);"/>
+        <ui:Label text="TAP TO PLAY AGAIN" class="controls-text" style="-unity-text-align: middle-center; margin-top: 40%; color: rgb(255, 255, 255); font-size: 100px; -unity-text-outline-width: 2px; -unity-text-outline-color: rgba(0, 0, 0, 0.63); text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.36);"/>
+    </ui:VisualElement>
+</ui:UXML>
