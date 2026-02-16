@@ -1,0 +1,43 @@
+Metadata of WildWest-Hammer-4k-optimized
+
+ Checksum: c79e63ac91fe8ac809f1895d87492b5b
+ Filename: WildWest-Hammer-4k-optimized.png
+ Filesize: 4.2 MB
+ Filetype: PNG
+ Filetypeextension: png
+ Mimetype: image/png
+ Imagewidth: 2560
+ Imageheight: 1440
+ Bitdepth: 8
+ Colortype: RGB with Alpha
+ Compression: Deflate/Inflate
+ Filter: Adaptive
+ Interlace: Noninterlaced
+ Exifbyteorder: Big-endian (Motorola, MM)
+ Xresolution: 72
+ Yresolution: 72
+ Imageoffset: 0, 0 (pixels)
+ Pixelsperunitx: 2834
+ Pixelsperunity: 2834
+ Pixelunits: meters
+ File: C:\Users\okrad\Desktop\Bootcamp-Models\WildWest\WildWest.blend
+ Date: 2026/02/16 12:09:59
+ Marker: <none>
+ Time: 00:00:00:01
+ Frame: 1
+ Framerange: 1:250
+ Camera: Camera
+ Lens: 50
+ Scene: Scene
+ Strip: <none>
+ Rendertime: 02:18.48
+ Memory: 1578.56M
+ Hostname: DESKTOP-LPOGPGC
+ Cyclesviewlayersamples: 128
+ Cyclesviewlayertotal Time: 02:17.56
+ Cyclesviewlayerrender Time: 01:56.99
+ Cyclesviewlayersynchronization Time: 00:20.56
+ Imagesize: 2560x1440
+ Megapixels: 3.7
+ Category: image
+ 
