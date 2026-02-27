@@ -1,0 +1,57 @@
+Iteration & User Testing
+
+Part 1: Playtesting & Observation
+
+Prototype: Atlas Runner (PC platformer, Moroccan theme). Goal: reach the end of each level, collect artifacts, avoid obstacles.
+
+Player Behavior Summary:
+- Player 1: Hesitated at moving platforms, failed twice at spike traps, enjoyed collecting artifacts.
+- Player 2: Confused by jump timing, engaged by level art, frustrated by enemy placement.
+
+Key Observations:
+- Players paused at unclear jump sections
+- Missed some collectibles
+- Both enjoyed Moroccan visuals
+- Frustration at enemy positions
+
+Main Problems:
+- Jump timing unclear
+- Enemy placement too difficult
+- Some collectibles hard to find
+
+Part 2: Metrics & Feedback Analysis
+
+Metrics:
+- Completion rate: 100% (both finished)
+- Time to complete: Player 1 - 4 min, Player 2 - 5 min
+- Failure rate: Player 1 - 3 deaths, Player 2 - 5 deaths
+- Collectibles found: Player 1 - 7/10, Player 2 - 6/10
+
+Interpretation:
+- Both completed, but struggled with jumps and enemies
+- Collectibles often missed
+- Feedback matches metrics: frustration at hard sections, enjoyment of visuals
+
+Part 3: Iteration & Improvement
+
+Problem → Solution Table:
+- Jump timing unclear → Add visual cues for jumps
+- Enemy placement too hard → Move enemies, add safe zones
+- Collectibles hard to find → Highlight collectibles
+
+Implemented Changes:
+- Added jump markers
+- Moved some enemies to easier spots
+
+Before/After:
+- Before: Players failed jumps, frustrated by enemies
+- After: Jumps clearer, less frustration
+
+Next Iteration Plan:
+- Test with 2 new players
+- Track if deaths decrease and collectibles increase
+
+Final Reflection:
+- Surprised by how much visuals engaged players
+- Jump sections changed the most
+- With more time: add tutorial and more feedback prompts

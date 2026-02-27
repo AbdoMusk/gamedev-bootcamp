@@ -1,0 +1,63 @@
+Internal Communication & Feedback System
+
+PART 1 – Diagnosis
+
+Root causes:
+1. Unclear decision-making: No central record, so teams don’t know who decided what. Leads to confusion and repeated questions.
+2. Wrong channels: Important info sent in chat, gets lost. People miss updates, causing mistakes.
+3. No feedback culture: Feedback is rare, only given when problems arise. Builds tension and resentment.
+4. Emotional feedback: Feedback is personal, not focused on work. Hurts morale and trust.
+5. Micromanagement: Managers check every detail, developers feel controlled. Designers feel ignored as their input is skipped.
+Consequence: Teams are frustrated, work slows, and trust drops.
+
+PART 2 – Communication Architecture
+
+A. Channels:
+1. Daily stand-up: Quick team sync, blockers shared. Used by all teams, every morning.
+2. Weekly team meeting: Deeper discussion, planning. Used by each team, once a week.
+3. Company-wide update: Email/newsletter, big decisions and news. All staff, every 2 weeks.
+4. Async chat (Slack/Discord): Fast questions, updates. All staff, all day.
+5. Decision log (Notion/Confluence): Records all key decisions. Managers update, all can read, updated as needed.
+
+B. Rules & Protocols:
+1. Use chat for quick questions, not for decisions.
+2. All decisions must be logged in the decision log.
+3. Meetings need agenda and summary notes.
+4. Feedback is given in private, not public.
+5. Async tools for non-urgent updates.
+6. Response to chat within 4 hours during workday.
+7. No micromanagement: managers review outcomes, not every step.
+8. Designers must be included in feature discussions.
+
+PART 3 – Feedback System
+
+A. Types:
+- Peer-to-peer: Private, regular check-ins.
+- Manager-to-team: Monthly review, focus on goals.
+- Team-to-manager: Quarterly survey, anonymous.
+
+B. Method: SBI (Situation–Behavior–Impact)
+- Chosen for clarity and focus on actions, not people.
+- Example: "In yesterday’s meeting (Situation), you interrupted the designer (Behavior), which made them feel undervalued (Impact)."
+- Applied in all feedback sessions, written or verbal.
+
+C. Feedback Safety:
+- All feedback is private unless agreed.
+- Managers mediate conflicts.
+- Toxic feedback is flagged, HR reviews.
+- Training on giving/receiving feedback.
+
+PART 4 – Crisis Simulation
+
+Immediate action: Manager stops meeting, addresses issue privately with both parties.
+Feedback reframed: "In the meeting, your comment about speed was public and personal. Next time, give feedback privately and focus on the work."
+System failure: No rule against public criticism, no feedback training.
+Rule change: All feedback must be private unless agreed by both.
+
+PART 5 – Measurement & Improvement
+
+1. Feedback frequency: Number of feedback sessions per month. Measured monthly. If low, schedule more.
+2. Team satisfaction: Survey scores, quarterly. If low, hold focus groups.
+3. Decision clarity: % of decisions logged. Measured monthly. If low, retrain managers.
+4. Conflict rate: Number of reported conflicts. Measured monthly. If high, review protocols.
+5. Meeting effectiveness: Survey after meetings. If low, improve agendas and summaries.
