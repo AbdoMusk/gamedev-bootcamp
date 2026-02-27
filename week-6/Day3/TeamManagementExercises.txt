@@ -1,0 +1,62 @@
+Team Management Exercises
+
+Exercise 1: Communication & Role Clarity
+
+Roles and Responsibilities:
+Designer: Game visuals, UI. Communicates via chat, weekly meeting.
+Developer: Code, bug fixes. Communicates via chat, daily standup.
+Artist: Assets, animations. Communicates via chat, shared docs.
+Producer: Schedule, tasks, support. Communicates via email, weekly summary.
+
+Plan:
+Daily standup (15 min, chat or call)
+Weekly meeting (30 min, all roles)
+Shared docs for updates
+Email for summaries
+
+--------
+
+Exercise 2: Feedback & Iteration
+
+Framework:
+Observation → Impact → Suggestion
+
+Example:
+Observation: The jump animation feels slow.
+Impact: Reduces game responsiveness.
+Suggestion: Speed up animation by 20%.
+
+Strategy:
+Feedback given in meetings or chat
+Team reviews, applies changes, documents results
+Focus on actions, not people
+Use neutral language, avoid blame
+
+-------------
+
+Exercise 3: Stress Management & Conflict Resolution
+
+Stress Sources & Solutions:
+1. Tight deadlines
+   - Prioritize tasks
+   - Take short breaks
+2. Unclear roles
+   - Clarify responsibilities
+   - Use task board
+3. Poor feedback
+   - Set feedback rules
+   - Schedule review sessions
+
+Conflict Scenario:
+Disagreement on feature design
+
+Resolution:
+Conflict type: Task
+Steps:
+1. Listen to all sides
+2. List pros/cons
+3. Vote or reach consensus
+Leadership:
+Stay neutral
+Encourage open talk
+Support final decision

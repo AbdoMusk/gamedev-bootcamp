@@ -1,0 +1,93 @@
+Team Management Gold Exercises
+
+Exercise 1: Advanced Communication & Role Strategy
+
+Team Members and Responsibilities:
+- Designer: UI, gameplay, some scripting
+- Developer: Core code, bug fixes, tools
+- Artist: Assets, animation, UI
+- Producer: Schedule, support, task tracking
+- QA: Testing, reporting
+
+Overlapping roles: Designer/Developer (scripting), Artist/Designer (UI)
+
+Bottlenecks:
+- Designer/Developer unclear handoff
+- Feedback delayed between QA and dev
+- Producer overloaded
+
+Communication System:
+- Daily updates (chat or call)
+- Weekly alignment meetings
+- Shared docs for decisions
+- Log all changes
+
+Risk Mitigation:
+- Backup communication channel
+- Assign communication lead
+- Document all decisions
+- Escalate unresolved issues
+
+Exercise 2: Expert Feedback System & Iterative Improvement
+
+Tiered Feedback:
+- Peer-to-peer: Quick review, chat
+- Lead-to-team: Weekly meeting
+- Cross-discipline: Monthly review
+
+Examples:
+1. Gameplay mechanic: "Jump feels floaty. Makes platforming hard. Suggest tweak gravity."
+2. Technical: "Load times too long. Slows testing. Suggest optimize asset pipeline."
+
+Tracking System:
+- Feedback log
+- Assign responsible member
+- Review status weekly
+
+Transform Negative Reactions:
+- Focus on solution, not blame
+- Use neutral language
+- Encourage open discussion
+
+Exercise 3: Stress Management, Conflict Resolution & Leadership
+
+Stress Factors:
+1. Technical issues
+   - Pair programming
+   - Ask for help
+   - Use checklists
+2. Deadline pressure
+   - Break tasks
+   - Prioritize
+   - Set buffer time
+3. Interpersonal
+   - Team check-ins
+   - Mediation
+   - Rotate tasks
+4. Personal
+   - Encourage breaks
+   - Flexible hours
+   - Support channels
+
+Critical Conflict:
+Designer vs Developer on gameplay
+- Type: Task/process
+- Steps:
+  1. Listen to both
+  2. List options
+  3. Vote or consensus
+  4. Document outcome
+- Leadership:
+  - Stay neutral
+  - Guide discussion
+  - Support final choice
+- Prevention:
+  - Clear specs
+  - Early reviews
+  - Feedback rules
+
+Sustaining Collaboration:
+- Short breaks
+- Celebrate wins
+- Rotate tasks
+- Monitor burnout

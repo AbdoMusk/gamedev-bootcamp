@@ -1,0 +1,26 @@
+Team Communication & Collaboration
+
+Communication Audit:
+1. Designer added feature without informing devs. Problem: Causes bugs, delays. Solution: Announce changes before commit.
+2. Tasks overlap, deadlines tight. Problem: Stress, confusion. Solution: Use task board, clarify priorities.
+3. Feedback avoided. Problem: Issues not fixed, team stagnates. Solution: Set feedback rule, regular review.
+
+Feedback Exercise:
+Observation: Feature added without notice.
+Impact: Caused bug, wasted dev time.
+Suggestion: Inform team before adding features.
+
+Stress & Collaboration Solution:
+Main stress: Overlapping tasks, tight deadlines.
+Strategies:
+1. Split tasks, assign clear roles.
+2. Short breaks, daily check-ins.
+Leader action: Hold quick sprint review, clarify process, encourage open talk.
+
+Solution Flow:
+- Announce changes
+- Use task board
+- Regular feedback
+- Split tasks
+- Team check-ins
+- Leader reviews
