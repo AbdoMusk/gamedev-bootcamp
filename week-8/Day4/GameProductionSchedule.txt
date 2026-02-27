@@ -1,0 +1,66 @@
+Assignment 1 — Game Production Schedule
+
+Concept: 2D Platformer with 3 levels
+
+Milestones & Deliverables:
+1. First Playable
+   - Player movement, Level 1 blockout, Basic UI, Collectibles, Simple enemy
+2. Alpha Build
+   - All levels blockout, Core mechanics, Art placeholders, Sound, Main menu
+3. Beta Build
+   - Final art, All levels complete, Polish, Bug fixes, Full audio
+
+Work Breakdown Structure (First Playable):
+
+Epic: Player Movement
+- Implement walk/run/jump (8h)
+- Add animations (6h)
+- Tune controls (4h)
+
+Epic: Level 1 Blockout
+- Design layout (6h)
+- Build in engine (8h)
+- Place collectibles (4h)
+
+Epic: Basic UI
+- Main HUD (5h)
+- Pause menu (4h)
+- Score display (3h)
+
+Dependencies & Critical Path:
+- Animations depend on walk/run/jump code
+- Controls tuning depends on basic movement
+- Build in engine depends on layout design
+- Place collectibles depends on level built
+- Score display depends on collectibles placed
+
+Critical Path: Walk/run/jump → Animations → Tune controls → Level layout → Build in engine → Place collectibles → Score display
+
+Assignment 2 — Task Board Creation & Workflow Setup
+
+Tool: Trello
+Columns: Backlog, Ready for Sprint, In Progress, Review/QA, Done
+
+Sample Tasks (with roles):
+- Implement walk/run/jump (Programmer) [Must Have] (In Progress)
+- Add animations (3D Artist) [Should Have] (In Progress)
+- Tune controls (Programmer) [Must Have] (Review/QA)
+- Design Level 1 layout (Level Designer) [Must Have] (Done)
+- Build Level 1 in engine (Programmer) [Must Have] (In Progress)
+- Place collectibles (Level Designer) [Should Have] (Backlog)
+- Main HUD (UI Designer) [Must Have] (Ready for Sprint)
+- Pause menu (UI Designer) [Should Have] (Backlog)
+- Score display (UI Designer) [Must Have] (Backlog)
+- Simple enemy (Programmer) [Should Have] (Backlog)
+- Art placeholders (3D Artist) [Should Have] (Backlog)
+- Sound (Sound Designer) [Should Have] (Backlog)
+- Main menu (UI Designer) [Should Have] (Backlog)
+- Polish (All) [Should Have] (Backlog)
+- Bug fixes (Programmer) [Must Have] (Backlog)
+
+Game Production Schedule (Summary)
+1. Define concept and milestones
+2. Assign tasks and roles
+3. Develop, test, and iterate
+4. Manage risks and deadlines
+5. Finalize and deliver

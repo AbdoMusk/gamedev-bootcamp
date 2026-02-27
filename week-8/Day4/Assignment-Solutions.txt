@@ -1,0 +1,84 @@
+
+Assignment 1 - Critical Path Analysis and Time Estimation
+
+Game: 2D Platformer
+
+Milestones:
+| Milestone        | Description |
+|------------------|-------------|
+| First Playable   | Basic gameplay loop |
+| Alpha            | Core features complete |
+| Beta             | All content, bug fixing |
+
+Alpha Release Gates:
+| Criteria                                 |
+|------------------------------------------|
+| Must run at 60 FPS for 1 hour on min spec |
+| Zero A-class bugs                        |
+
+Epic: Player Combat System
+Work Breakdown Structure (WBS):
+| Task                        | Ideal Hours |
+|-----------------------------|-------------|
+| Design combat mechanics     | 4           |
+| Implement player attack     | 6           |
+| Implement enemy AI          | 8           |
+| Create hit detection        | 5           |
+| Add health system           | 4           |
+| Add animations              | 6           |
+| Sound effects               | 3           |
+| UI feedback                 | 3           |
+| Playtesting                 | 4           |
+| Bug fixing                  | 5           |
+
+| Total Ideal Hours | 48      |
+| Buffer (15%)     | 7.2     |
+| Total w/ Buffer  | 55.2    |
+
+Dependencies:
+| Dependent Task         | Depends On         |
+|------------------------|--------------------|
+| Implement player attack| Design combat mech |
+| Implement enemy AI     | Implement player atk|
+| Create hit detection   | Implement player atk|
+| Add health system      | Create hit detection|
+| Add animations         | Implement player atk|
+| Sound effects          | Add animations      |
+| UI feedback            | Add animations      |
+| Playtesting            | UI feedback         |
+| Bug fixing             | Playtesting         |
+
+Critical Path: Design combat mechanics → Implement player attack → Implement enemy AI → Create hit detection → Add health system → Add animations → UI feedback → Playtesting → Bug fixing
+If "Bug fixing" is delayed, project deadline is pushed.
+
+
+Assignment 2 - Scrum Board Setup and Process Enforcement
+
+Epics:
+| Epic           |
+|----------------|
+| Player Combat  |
+| Level Design   |
+
+Columns:
+| Product Backlog | Current Sprint | In Progress (WIP 3) | Code Review | QA / Verification | Done |
+
+Definition of Done (Gameplay Code Feature):
+| # | DoD Checklist Item                |
+|---|-----------------------------------|
+| 1 | Unit tests included               |
+| 2 | Code reviewed by Lead             |
+| 3 | Integrated into latest build      |
+| 4 | Bug-free in 1-hour QA             |
+| 5 | Documentation updated             |
+
+
+Assignment 3 - Formal Risk Register Creation
+
+| ID  | Risk Description                          | Category   | L x I | Exposure | Owner           | Prevention Strategy                        | Contingency Plan                  |
+|-----|-------------------------------------------|------------|-------|----------|-----------------|--------------------------------------------|------------------------------------|
+| R01 | 3rd-party physics engine fails under load | Technical  | 4 x 5 | 20       | Lead Programmer | Early technical spike                      | Custom fallback physics            |
+| R02 | Key artist burnout                       | Personnel  | 3 x 5 | 15       | Art Director     | Manage workload                            | Hire freelancer                    |
+| R03 | Scope creep                              | Scope      | 4 x 4 | 16       | Producer         | Strict change control                      | Cut features                       |
+| R04 | IP licensing delay                       | External   | 2 x 5 | 10       | Producer         | Early negotiation                          | Replace assets                     |
+| R05 | Build system failure                     | Technical  | 2 x 4 | 8        | Lead Programmer  | Regular backups                            | Manual build process               |
