@@ -1,0 +1,44 @@
+Project Overview:
+
+"Atlas Adventure" is a 2D platformer inspired by Moroccan landscapes and culture, designed for PC and mobile. The player explores 5 unique levels, each themed after a Moroccan region, collecting ancient artifacts and overcoming obstacles. Developed over 5 weeks by a team of 3 (designer, developer, artist), the project aimed to blend local culture with engaging platformer mechanics for young players. Milestones included prototype completion, level design, asset creation, and final polish. The vision was to create a fun, educational experience highlighting Morocco's diversity.
+
+Development Report:
+We used Godot Engine with GDScript and basic plugins for tilemaps and UI. The workflow started with paper prototypes, then digital mockups, followed by iterative level design and playtesting. Major decisions included using placeholder sprites for rapid iteration and focusing on core mechanics (jump, collect, simple combat). Scope was managed by prioritizing level completion and basic progression, postponing advanced features. Midway, we switched to a simpler art style to meet deadlines. Task delegation was clear: designer handled level layouts, artist created assets, developer coded mechanics. Weekly reviews ensured alignment. Trello tracked tasks and milestones. QA was done by all team members, with feedback logged and addressed before final build.
+
+Problems Encountered:
+1. Collision detection was inconsistent, causing player to get stuck.
+2. Level balance was off; some levels were too hard for target age.
+3. Combat mechanics felt repetitive and lacked challenge.
+4. Asset creation took longer than planned, delaying integration.
+5. Scope creep: team wanted to add new features late in development.
+Each issue impacted progress, causing delays or reducing player experience.
+
+Solutions & Adjustments:
+1. Refined collision code and tested edge cases, fixed stuck player bug.
+2. Redesigned levels, added checkpoints and hints for easier progression.
+3. Tweaked enemy AI, added new enemy types and power-ups.
+4. Used simpler sprites, prioritized essential assets, delayed non-critical art.
+5. Enforced milestone deadlines, postponed new features to future updates.
+Task delegation and weekly reviews helped resolve issues quickly.
+
+Post-Mortem Analysis:
+Successes:
+- Moroccan theme and level design were well received.
+- Core mechanics (jump, collect) worked smoothly.
+- Team communication and task tracking were effective.
+Failures:
+- Combat lacked depth, some features unfinished.
+- Art style changed mid-project, causing rework.
+- Scope creep risked delays.
+Root Causes:
+- Overambitious feature planning, underestimated asset workload.
+- Early assumptions about combat depth were incorrect.
+- Communication gaps during asset integration.
+
+Key Learnings:
+1. Optimize collision early to avoid gameplay bugs.
+2. Test level difficulty with target audience before finalizing.
+3. Keep art style consistent from start.
+4. Prioritize core features, postpone extras.
+5. Use clear task tracking and regular reviews to maintain scope.
+Future projects should start with a clear vision, test mechanics early, and focus on essential features for timely delivery.

@@ -1,0 +1,19 @@
+Project Overview:
+
+Atlas Runner: a PC platformer inspired by Moroccan landscapes, made in Godot in 3 weeks by a team of 2. Goal: create a fun, fast-paced game with Moroccan themes and simple controls.
+
+Development Report:
+Used Godot for development. Designed levels with tilemaps based on Moroccan regions. Started with basic movement, then added obstacles and collectibles like traditional artifacts. Used Trello for task tracking.
+
+Problems Encountered:
+- Player movement felt unresponsive
+- Art assets didn't match Moroccan theme at first
+- Deadline was tight, causing stress
+
+Solutions / Adjustments:
+- Tweaked physics for smoother controls
+- Replaced art with Moroccan-inspired style
+- Split tasks and focused on core features
+
+Key Learning:
+Test controls early and keep art style consistent with the theme. Focus on core gameplay first.
